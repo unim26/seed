@@ -39,13 +39,13 @@ Choose the method that works best for your setup:
 **Option 1: Using Go Install (Recommended)**
 If you already have Go installed, you can pull and install the latest version directly:
 ```bash
-go install [github.com/unim26/seed@latest](https://github.com/unim26/seed@latest)
+go install github.com/unim26/seed@latest
 ```
 
 **Option 2: Compile from Source**
 Clone the repository and build the binary manually:
 ```bash
-git clone [https://github.com/unim26/seed.git](https://github.com/unim26/seed.git)
+git clone https://github.com/unim26/seed.git
 cd seed
 go build -o seed main.go
 sudo mv seed /usr/local/bin/
