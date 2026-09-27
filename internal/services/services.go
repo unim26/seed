@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/unim/seed/internal/colors"
-	"github.com/unim/seed/internal/models"
+	"github.com/unim26/seed/internal/colors"
+	"github.com/unim26/seed/internal/models"
 )
 
 const SeedSignature = "SEED_SNAPSHOT_V1"

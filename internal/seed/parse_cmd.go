@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/unim/seed/internal/colors"
-	"github.com/unim/seed/internal/services"
+	"github.com/unim26/seed/internal/colors"
+	"github.com/unim26/seed/internal/services"
 )
 
 // process coomand
