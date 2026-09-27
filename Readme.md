@@ -11,6 +11,27 @@
 *  **Smart Ignorance:** Automatically ignores heavy dependency folders like `.git`, `node_modules`, etc.
 *  **Tamper-Proof Blueprints:** Snapshots are serialized and Base64-encoded into a `.seed` file, protecting the blueprint structure from manual corruption.
 
+## 📖 Usage
+
+Seed is designed to be completely safe to run in active repositories. It uses two simple commands: `snapshot` and `build`.
+
+### 1. Capture a Blueprint
+Navigate to an existing project that has a folder architecture you want to reuse, and run:
+
+```bash
+seed snapshot
+```
+This scans your current directory tree, strips out all file contents, ignores dependencies (like .git and node_modules), and saves the empty structural blueprint to a .seed file.
+
+### 2. Scaffold a New Project
+Move your newly generated .seed file into a new directory (or share it with your team), and run the build command:
+
+```bash
+seed build
+```
+Seed will instantly recreate all the folders and blank files.
+
+
 ##  Installation
 
 Choose the method that works best for your setup:
