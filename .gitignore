@@ -1,2 +1,20 @@
 build/
 dist/
+
+# Binaries
+filehunt
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# OS specific files
+.DS_Store
+Thumbs.db
